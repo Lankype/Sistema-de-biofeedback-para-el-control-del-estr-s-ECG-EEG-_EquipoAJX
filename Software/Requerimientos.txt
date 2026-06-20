@@ -1,4 +1,4 @@
-Para que el codigo funcione de manera optima es necesario la siguiente librerías
+Para que el código funcione de manera optima es necesario la siguiente librerías
 bioread
 numpy
 scipy
