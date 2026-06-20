@@ -54,7 +54,7 @@ Colocar en la misma carpeta:
 - Software_Semaforodenivelesderelajación.py
 
 # Ejecución 
-Para poder ejecutar el codigo debe de entrar el usuario a la carpeta del software ya descargada y ejecutar, si el usuario gusta cambiar los archivos de datos tomados de igual forma se colocaran varios archivos acq para que este pueda realizar varias pruebas.
+Para poder ejecutar el código debe de entrar el usuario a la carpeta del software ya descargada y ejecutar, si el usuario gusta cambiar los archivos de datos tomados de igual forma se colocarán varios archivos "acq" para que este pueda realizar varias pruebas.
 Para poder utilizar las diferentes tomas de datos que se encuentran en la carpeta, este debe de modificarse en el código a partir de la linea 438 para poder colocar datos adquridos en el formato acq. Su calibración y sus señales a procesar. El archivo de calibración de cambia en la linea 442 y el archivo a procesar en la 447
 
 | ![Captura ubicacion](Ubicación_codigo.png) |
