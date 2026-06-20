@@ -7,10 +7,10 @@
 - Javier Del Angel Del Angel
 
 # Estructura 
-Hardware
-Software 
-Reporte
-Readme.md 
+- Hardware.
+- Software. 
+- Reporte.
+- Readme.md 
 
 # Descripción
 Este trabajo consta de un sistema de biofeedback que detecta el estado de relajación y la reducción de este estado, por medio de señales EEG Y ECG.
