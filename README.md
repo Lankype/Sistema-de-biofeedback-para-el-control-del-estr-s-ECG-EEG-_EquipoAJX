@@ -44,12 +44,13 @@ Instalar las siguientes librerías:
 - scipy
 - pyqtgraph
 - PyQt5
+Para instalarlas es necesario abrir el terminar de python y escrirbir
+pip install bioread numpy scipy pyqtgraph PyQt5
 
 # Archivos necesarios
 Colocar en la misma carpeta:
-
 Lankicalibra.acq
 Lankimedido.acq
-.py
+Software_.py
   
 
