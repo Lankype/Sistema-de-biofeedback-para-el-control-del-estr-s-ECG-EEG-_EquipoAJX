@@ -49,8 +49,14 @@ pip install bioread numpy scipy pyqtgraph PyQt5
 
 # Archivos necesarios
 Colocar en la misma carpeta:
-Lankicalibra.acq
-Lankimedido.acq
-Software_.py
-  
+- Lankicalibra.acq
+- Lankimedido.acq
+- Software_Semaforodenivelesderelajación.py
+
+# Ejecución 
+Para poder ejecutar el codigo debe de entrar el usuario a la carpeta del software ya descargada y ejecutar, si el usuario gusta cambiar los archivos de datos tomados de igual forma se colocaran varios archivos acq para que este pueda realizar varias pruebas
+
+## Procesamiento que se implementa 
+### ECG
+
 
