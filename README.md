@@ -21,7 +21,6 @@ Generar una interfaz con las siguientes especificaciones:
 - Detectar picos R y obtener el intervalo RR
 - Calcular la metrica HRV mediante el calculo de RMSSD:
 - Obtener la relación LF/HF
-
 - A la señal de EEG extarer la potencia Alpha (8-13Hz)
 - Clasificar el estado del usuario, mediante 3 colores:
     * Rojo--> Estrés
@@ -38,6 +37,8 @@ Generar una interfaz con las siguientes especificaciones:
 # Requisitos para el funcionamiento del software 
 
 Python 3.11+.
+
+
 Instalar las siguientes librerías:
 - Bioread
 - numpy
@@ -56,6 +57,8 @@ Colocar en la misma carpeta:
 # Ejecución 
 Para poder ejecutar el codigo debe de entrar el usuario a la carpeta del software ya descargada y ejecutar, si el usuario gusta cambiar los archivos de datos tomados de igual forma se colocaran varios archivos acq para que este pueda realizar varias pruebas.
 Para poder utilizar las diferentes tomas de datos que se encuentran en la carpeta, este debe de modificarse en el código a partir de la linea 438 para poder colocar datos adquridos en el formato acq. Su calibración y sus señales a procesar. El archivo de calibración de cambia en la linea 442 y el archivo a procesar en la 447
+
+
 | ![Captura ubicacion](Ubicación_codigo.png) |
 
 ## Procesamiento que se implementa 
