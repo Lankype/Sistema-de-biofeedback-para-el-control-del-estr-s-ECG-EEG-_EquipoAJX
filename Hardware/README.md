@@ -1,1 +1,7 @@
-
+Para la toma de datos se requiere tener instalado el sistema BIOPAC. Se creará un nuevo registro verificando que los canales 1 y 2 estén seleccionados. En la sección izquierda, en la pestaña de longitud y frecuencia, se modificarán los valores de frecuencia para que coincidan con nuestra frecuencia de muestreo, la cual es 1000 Hz. Así mismo, en la misma pestaña se modificará el tiempo en el que se toma la muestra a 1 minuto, que es el tiempo necesario para la primera muestra: la toma de calibración. Una vez configurado, cerramos la primera ventana. 
+Para tomar la muestra, se selecciona el botón de iniciar en la esquina superior izquierda del programa, la cual se detendrá automáticamente en el tiempo que se estableció previamente. El programa te permite modificar el tiempo en el que se visualicen los datos haciendo click derecho en la barra inferior a las gráficas. 
+Al finalizar la toma, en la esquina superior izquierda se selecciona cómo guardar el archivo de calibración, se deberá elegir la carpeta donde se encuentra el programa en python. 
+Para tomar la segunda muestra, la que tendrá la toma en estado de relajación y estresado, se dará click en el botón de retroceso para borrar los datos previamente tomados en la aplicación. 
+Después, se seleccionará el menú "MP36 en la parte superior de la interfaz y se elegirá la primera opción para modificar la ventana del principio. 
+Se cambiará el tiempo de toma de muestra a 2 minutos y se cerrará la primera ventana. 
+Para comenzar la última medición, se dará click en el botón iniciar y finalizará en el tiempo establecido. Al igual que la calibración, se guardará el archivo en la carpeta de Python.
