@@ -57,6 +57,29 @@ Colocar en la misma carpeta:
 Para poder ejecutar el codigo debe de entrar el usuario a la carpeta del software ya descargada y ejecutar, si el usuario gusta cambiar los archivos de datos tomados de igual forma se colocaran varios archivos acq para que este pueda realizar varias pruebas
 
 ## Procesamiento que se implementa 
+### EEG
+- filtrado de la señal 1-40 Hz
+- Extracción de la banda Alpha
+- Cálculo PSD mediante el método de Welch
+
 ### ECG
+1. Filtrado 5–25 Hz
+2. Detección de picos R y calcular los intervalos RR
+3. Cálculo RMSSD y la HRV
+4. Cálculo LF/HF
 
+### GUI
+La interfaz gráfica muestra al usuario:
+- Estado del semáforo
+- La señal de ECG
+- La señal de EEG
+- Tiempo transcurrido
+- BPM
+- La potencia Alpha
+- La raíz cuadrada de la media de las diferencias sucesivas(RMSSD)
+- LF
+- HF
+- la diferencia entre LF/HF
+-  la relación de la potencia alpha actual con la de la medida de calibración en porcentaje
 
+  
